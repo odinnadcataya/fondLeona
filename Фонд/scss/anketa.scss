@@ -1,0 +1,90 @@
+@import "nullstyle.scss";
+
+.conteiner {
+    padding: 17px 10px 0px 10px;
+}
+
+.main {
+    padding-bottom: 20px;
+    &__wrap {
+        max-width: 1130px;
+        margin: 0 auto;
+    }
+
+    &__card-wrap {
+        margin-top: 42px;
+    }
+
+    &__card {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        
+    }
+    &__imges-card{
+        flex-basis: 540px;
+    }
+
+    &__img-card {
+        width: 100%;
+        margin-bottom: 20px;
+        height: 448px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    &__img-mini {
+        display: flex;
+        justify-content: space-between;
+        gap: 5px;
+    }
+    &__img-mini > img{
+        height: 148px;
+        object-fit: cover;
+        object-position: center;
+    }
+    &__text-card {
+        flex-basis: 539px;
+    }
+
+    &__name {
+        margin-bottom: 10px;
+        font-family: "Noto Sans", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 33px;
+        color: #444444;
+    }
+
+    &__short-description {
+        margin-bottom: 7px;
+        font-family: "Open Sans", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        color: #444444;
+        &:nth-child(4){
+            margin-bottom: 17px;
+        }
+    }
+    &__short-description > span {
+        font-family: "Open Sans", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        color: #444444;
+    }
+    
+
+    &__description {
+        font-family: "Open Sans", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        color: #444444;
+    }
+}

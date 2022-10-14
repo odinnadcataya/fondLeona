@@ -1,0 +1,79 @@
+@import "nullstyle.scss";
+
+//FAQ
+.conteiner {
+    padding: 0px 10px 0px 10px;
+}
+.header {
+    &__wrap {
+        max-width: 1130px;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    &__logo {
+        padding-top: 17px;
+        flex-basis: 250px;
+        background: transparent;
+    }
+    &__logo > img{
+        float: left;
+    }
+    &__nav {
+        flex-basis: 596px;
+        padding-top: 47px;
+    }
+    &__nav > ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__link {
+        font-family: "Raleway", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 21px;
+        color: #444444;
+        &_color_blue {
+            color: #52749a;
+        }
+    }
+}
+.main {
+    padding-bottom: 44px;
+    &__wrap {
+        max-width: 1130px;
+        margin: 0 auto;
+        color: #444444;
+        font-style: normal;
+    }
+    &__title {
+        font-family: "Noto Sans", sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 33px;
+        margin: 17px 0px 25px 0px;
+        padding-left: 19px;
+    }
+    &__question-block {
+        background-color: #ffffff;
+        box-shadow: 8px 30px 120px rgba(0, 0, 0, 0.09);
+        border-radius: 5px;
+        margin-bottom: 44px;
+        padding: 23px 19px 29px 19px;
+    }
+    &__subtitle {
+        margin-bottom: 15px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+    }
+    &__text {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+    }
+}
